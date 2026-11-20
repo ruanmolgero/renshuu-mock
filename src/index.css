@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Ensure native mobile app feel without bounce or accidental text selection */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background-color: #141414;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
